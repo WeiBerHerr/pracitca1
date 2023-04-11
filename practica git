@@ -10,15 +10,16 @@ utilizar Git-Bash para elaborar las siguientes acciones:
 7-cree el archivo /trabajo/trabajo.txt
 8-cree el archivo /extras/extras.txt
 9-modifique los archivos creados
-10-ejecute git status y comente los resultados
+10-ejecute git status y comente los resultados COMENTARIO: MUESTRA LOS ARCHIVOS MODIFICADOS DENTRO DEL PROYECTO QUE NO ESTAN EN EL AREA DE STAGE
 11-pase los archivos al area de staging
 12-haga cambios al archivo info.txt
-13-ejecute un git status y comente los resultados
-14-ejecute el comando git log y comente los cambios
+13-ejecute un git status y comente los resultados COMENTARIO: MUESTRA A TODOS LOS ARCHIVOS EN ESTADO DE STAGE, MENOS A info.txt POR TENER UNA MODIFICACION
+14-ejecute el comando git log y comente los cambios COMENTARIO : mE DICE QUE MI RAMA ACTUAL NO TIENE COMMITS AUN
 15-cree un repo en GitHub llamado practica1
 16-sincronice el repo local practicaGit con el repo remoto practica1
 17-ejecute git push -u origin main
-18- comente los resultados 
+	18- comente los resultados COMENTARIO: NO PODIA REALIZAR EL PUSH DEBIDO A QUE AUN NO HABIA UN COMMIT, REALIZE UN COMMIT Y EL PUSH SE REALIZO LUEGO DE ASIGNARLE UN UPSTREAM A MI RAMA  CON git push --set-upstream origin master
+
 19-cree dos nuevos archivos de txt en el repo remoto llamados extra1.txt y extra2.txt
 20-sincronice los repositorios
 21-ejecute git pull
@@ -26,7 +27,7 @@ utilizar Git-Bash para elaborar las siguientes acciones:
 23-prepare los el repo local para subir cambios
 24-cree una nueva Rama llamada Version1
 25-cree los directorios /prueba1 y /prueba 2 dentro de la rama
-26- ejecute un git status y comente los resultados
+26- ejecute un git status y comente los resultados COMENTARIO: SOLO DICE QUE ESTA LA CARPETA DONDE CLONE EL REPOSITORIO DEL EJERCICIO 22, NO APARECEN PRUEBA 1 NI PRUEBA 2 POR QUE NO CONTIENEN ARCHIVOS 
 27- suba la nueva rama al repo remoto
 28-ejecute un merge en la rama main con el contenido de la rama version1
 29-elimine la rama version1 en el repo local 
